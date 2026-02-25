@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci‑Fi & Fantasy Worlds</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+        header {
+            background: linear-gradient(135deg, #3c1361 0%, #1a1a1a 100%);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #ffa500;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background-color: #1f1f1f;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            display: block;
+        }
+        .card-content {
+            padding: 16px;
+        }
+        .card-content h2 {
+            margin: 0 0 10px;
+            color: #ffa500;
+        }
+        details {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 6px;
+            padding: 10px 16px;
+            margin-bottom: 16px;
+        }
+        details summary {
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sci‑Fi & Fantasy Worlds</h1>
+        <p class="subtitle">Explore books and games that ignite imagination</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://source.unsplash.com/featured/400x250?scifi-book" alt="Science Fiction Book">
+            <div class="card-content">
+                <h2>Dune (Book)</h2>
+                <details>
+                    <summary>More about Dune</summary>
+                    <p>Frank Herbert's epic novel set on the desert planet Arrakis. Themes include politics, religion, and ecology among feudal houses.</p>
+                </details>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/featured/400x250?fantasy-game" alt="Fantasy Game">
+            <div class="card-content">
+                <h2>The Witcher 3 (Game)</h2>
+                <details>
+                    <summary>More about The Witcher 3</summary>
+                    <p>An open-world RPG based on Andrzej Sapkowski's books. Play as Geralt of Rivia, a monster hunter navigating political intrigue and moral choice.</p>
+                </details>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/featured/400x250?space-opera" alt="Space Opera">
+            <div class="card-content">
+                <h2>Foundation (Book)</h2>
+                <details>
+                    <summary>More about Foundation</summary>
+                    <p>Isaac Asimov's series about mathematician Hari Seldon and psychohistory, forecasting the fall and rise of galactic civilizations.</p>
+                </details>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/featured/400x250?fantasy-book" alt="Fantasy Book">
+            <div class="card-content">
+                <h2>Lord of the Rings (Book)</h2>
+                <details>
+                    <summary>More about LOTR</summary>
+                    <p>J.R.R. Tolkien's classic tale of the One Ring and the Fellowship's quest to destroy it, set in the richly detailed world of Middle-earth.</p>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sci‑Fi & Fantasy Worlds. All rights reserved.</p>
+    </footer>
+</body>
+</html>
