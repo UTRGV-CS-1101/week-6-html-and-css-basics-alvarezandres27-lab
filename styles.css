@@ -1,16 +1,92 @@
+/* Basic reset */
 * {
-    color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1
-{
-    color: blue;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8; /* light grey background */
+    color: #333;
 }
-.class
-{
-    color: green;
+
+header {
+    background-color: #003366; /* dark blue */
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
 }
-#id
-{
-    color 
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #aaddff;
+    text-decoration: underline;
+}
+
+/* button style for nav and other links */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px 0;
+    background-color: #0055a5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #003366;
+}
+
+section {
+    padding: 20px 10%;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section ul {
+    list-style: disc inside;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #0055a5;
+    margin-bottom: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 0.9em;
+}
+
+/* Utilities */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
 }
